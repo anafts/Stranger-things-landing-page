@@ -154,7 +154,7 @@
     mask: var(--character-top-image-src) bottom / contain no-repeat;
     -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
   }
-
+  
   .world-characters#bottom-characters {
     height: 500px;
     background-color: var(--character-bottom-image-color);
@@ -165,6 +165,7 @@
     mask: var(--character-bottom-image-src) bottom / contain no-repeat;
     -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
   }
+  
 
 /**  main styles **/
   main {
@@ -187,7 +188,7 @@
   }
   
 
-/**  section one styles **/
+/**  section styles **/
 
   #section-inverted-world {
     align-items: center;
@@ -201,7 +202,7 @@
     max-width: 300px;
   }
 
-/**  section two styles **/
+/**  section stranger things trailer styles **/
   #section-stranger-things-trailer .section-texts {
     width: 50%;
     text-align: right;
@@ -233,8 +234,8 @@
     border-image-slice: 10;
   }
 
-  /**  section three styles **/
-  
+  /**  section tranger things gallery styles **/
+
   #section-stranger-things-gallery {
     width: 100%;
     background: var(--background-lamp-image) 120% / 50% no-repeat;
@@ -269,6 +270,8 @@
     object-fit: cover;
     border: 10px solid var(--highlight-color);
   }
+
+  /**  section form styles **/
   
 
 
