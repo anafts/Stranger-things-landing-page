@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
@@ -52,6 +53,7 @@
     margin: 0;
     box-sizing: border-box;
   }
+
 
   h1, 
   h2, 
@@ -230,6 +232,44 @@
     );
     border-image-slice: 10;
   }
+
+  /**  section three styles **/
+  
+  #section-stranger-things-gallery {
+    width: 100%;
+    background: var(--background-lamp-image) 120% / 50% no-repeat;
+    justify-content: center;
+  }
+
+  #section-stranger-things-gallery .container {
+    width: 100%;
+  }
+
+  #section-stranger-things-gallery .container h2 {
+    width: 800px;
+  }
+
+  #section-stranger-things-gallery .gallery-container {
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+  }
+
+  #section-stranger-things-gallery .gallery-image {
+    width: 250px;
+    height: 250px;
+    outline: 20px solid var(--highlight-color);
+    border: 3px solid var(--primary-color);
+    box-sizing: initial;
+  }
+
+  #section-stranger-things-gallery .gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid var(--highlight-color);
+  }
+  
 
 
 
